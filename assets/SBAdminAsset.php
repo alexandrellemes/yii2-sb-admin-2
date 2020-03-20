@@ -19,6 +19,6 @@ class SBAdminAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapPluginAsset',
-        'app\assets\FontAwesomeAsset',
+        'svit\sbAdmin\assets\FontAwesomeAsset',
     ];
 }
