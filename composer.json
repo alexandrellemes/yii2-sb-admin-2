@@ -1,0 +1,21 @@
+{
+    "name": "svit-ws/yii2-sb-admin-2",
+    "description": "A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sb-admin-2","theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SVit",
+            "email": "info@svit.ws"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "svit\\sbAdmin\\": ""
+        }
+    }
+}
