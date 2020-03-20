@@ -1,6 +1,6 @@
 SB Admin 2 theme for Yii 2 Framework
 ====================================
-A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application
+A free Bootstrap 4 [SB Admin 2](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2) theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application
 
 Installation
 ------------
