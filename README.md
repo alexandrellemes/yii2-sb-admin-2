@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist svit-ws/yii2-sb-admin-2 "*"
+php composer.phar require --prefer-dist svit-ws/yii2-sb-admin-2 "dev-master"
 ```
 
 or add
 
 ```
-"svit-ws/yii2-sb-admin-2": "*"
+"svit-ws/yii2-sb-admin-2": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -25,7 +25,9 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your view code by  :
 
 ```php
-<?= \svit\sbAdmin\AutoloadExample::widget(); ?>```
+/** @var yii\web\View $this */
+ \svit\sbAdmin\assets\SBAdminAsset::register($this); 
+```
