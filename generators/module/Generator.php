@@ -2,6 +2,7 @@
 
 namespace svit\sbAdmin\generators\module;
 
+use svit\sbAdmin\generators\GeneratorTrait;
 use yii\gii\CodeFile;
 
 /**
@@ -9,6 +10,8 @@ use yii\gii\CodeFile;
  */
 class Generator extends \yii\gii\generators\module\Generator
 {
+    use GeneratorTrait;
+
     /**
      * {@inheritdoc}
      */

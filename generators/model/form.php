@@ -1,10 +1,10 @@
 <?php
 
-use app\generators\model\Generator;
+use \svit\sbAdmin\generators\model\Generator;
 
 /* @var $this yii\web\View */
 /* @var $form yii\widgets\ActiveForm */
-/* @var $generator app\generators\model\Generator */
+/* @var $generator Generator */
 
 echo $form->field($generator, 'tableName')->textInput(['table_prefix' => $generator->getTablePrefix()]);
 echo $form->field($generator, 'modelClass');
