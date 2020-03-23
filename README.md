@@ -25,9 +25,18 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your view code by  :
+Once the extension is installed, simply use it in your view code by:
 
 ```php
 /** @var yii\web\View $this */
  \svit\sbAdmin\assets\SBAdminAsset::register($this); 
+```
+
+Custom generators for Gii module:
+
+```php
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+        'generators' => require '<path_to_vendor>/svit-ws/yii2-sb-admin-2/generators/config.php',
+    ];
 ```
