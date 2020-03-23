@@ -19,6 +19,18 @@ use yii\web\Controller;
 class DefaultController extends Controller
 {
     /**
+     * {@inheritdoc}
+     */
+    public function actions()
+    {
+        return [
+            'error' => [
+                'class' => 'svit\sbAdmin\actions\ErrorAction',
+            ],
+        ];
+    }
+
+  /**
      * Renders the index view for the module
      * @return string
      */

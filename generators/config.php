@@ -3,19 +3,19 @@ return [
     'crud' => [
         'class' => 'yii\gii\generators\crud\Generator',
         'templates' => [
-            'SB Admin' => '@app/generators/crud/default',
+            'SB Admin' => '@vendor/svit-ws/yii2-sb-admin-2/generators/crud/default',
         ]
     ],
     'model' => [
         'class' => 'svit\sbAdmin\generators\model\Generator',
         'templates' => [
-            'SB Admin' => '@app/generators/model/default',
+            'SB Admin' => '@vendor/svit-ws/yii2-sb-admin-2/generators/model/default',
         ]
     ],
     'module' => [
-        'class' => 'yii\gii\generators\module\Generator',
+        'class' => 'svit\sbAdmin\generators\module\Generator',
         'templates' => [
-            'SB Admin' => '@app/generators/module/default',
+            'SB Admin' => '@vendor/svit-ws/yii2-sb-admin-2/generators/module/default',
         ]
     ],
 ];
