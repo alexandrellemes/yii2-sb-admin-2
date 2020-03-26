@@ -4,11 +4,11 @@ namespace svit\sbAdmin\helpers;
 
 class Html extends \yii\helpers\Html
 {
-    public static function icon($name)
+    public static function icon($name, $options = [])
     {
-        $class = "fas fa-{$name}";
+        $options = array_merge_recursive(['class' => "fas fa-{$name}"], $options);
 
-        return static::tag('i', '', ['class' => $class]);
+        return static::tag('i', '', $options);
     }
 
     public static function iconButton($text, $url, $color, $icon)
