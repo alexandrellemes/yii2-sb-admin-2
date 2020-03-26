@@ -15,7 +15,7 @@
         "yiisoft/yii2": "~2.0.0",
         "yiisoft/yii2-bootstrap4": "~2.0.6",
         "bower-asset/startbootstrap-sb-admin-2": "^4.0.7",
-        "rmrevin/yii2-fontawesome": "~3.5"
+        "rmrevin/yii2-fontawesome": "^3.4"
     },
     "autoload": {
         "psr-4": {
