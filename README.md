@@ -40,3 +40,4 @@ Custom generators for Gii module:
         'generators' => require '<path_to_vendor>/svit-ws/yii2-sb-admin-2/generators/config.php',
     ];
 ```
+Teste
